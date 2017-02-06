@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="castRender" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/castRender" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/castRender" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="D:/hiburan/ClicksOfCourage/irrlicht/include" />
+		</Compiler>
+		<Linker>
+			<Add library="Irrlicht" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="gdi32" />
+			<Add directory="D:/hiburan/ClicksOfCourage/irrlicht/lib/Win32-gcc" />
+		</Linker>
+		<Unit filename="castRender/BaseObject.cpp" />
+		<Unit filename="castRender/BaseObject.h" />
+		<Unit filename="castRender/CCastRender.cpp" />
+		<Unit filename="castRender/CCastRender.h" />
+		<Unit filename="castRender/materialCallbacks/BaseDepthCB.h" />
+		<Unit filename="castRender/materialCallbacks/DepthComposit.h" />
+		<Unit filename="castRender/materialCallbacks/ScreenNormalCallback.h" />
+		<Unit filename="castRender/materialCallbacks/ScreenShaderCallback.h" />
+		<Unit filename="castRender/materialCallbacks/lightingCallBack.h" />
+		<Unit filename="castRender/materialCallbacks/screenShadowCallback.h" />
+		<Unit filename="castRender/objects/CilinderObject.cpp" />
+		<Unit filename="castRender/objects/CilinderObject.h" />
+		<Unit filename="castRender/objects/CompositObject.cpp" />
+		<Unit filename="castRender/objects/CompositObject.h" />
+		<Unit filename="castRender/objects/ConeObject.cpp" />
+		<Unit filename="castRender/objects/ConeObject.h" />
+		<Unit filename="castRender/objects/CubeObject.cpp" />
+		<Unit filename="castRender/objects/CubeObject.h" />
+		<Unit filename="castRender/objects/SphereObject.cpp" />
+		<Unit filename="castRender/objects/SphereObject.h" />
+		<Unit filename="castRender/objects/objectConstants.h" />
+		<Unit filename="config.h" />
+		<Unit filename="demos.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars set="default" />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
