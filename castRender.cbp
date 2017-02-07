@@ -37,6 +37,8 @@
 			<Add directory="D:/hiburan/ClicksOfCourage/irrlicht/include" />
 		</Compiler>
 		<Linker>
+			<Add option="-static-libgcc" />
+			<Add option="-static-libstdc++" />
 			<Add library="Irrlicht" />
 			<Add library="opengl32" />
 			<Add library="glu32" />
