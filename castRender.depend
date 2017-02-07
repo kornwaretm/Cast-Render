@@ -1130,3 +1130,106 @@
 1473591740 d:\hiburan\cornworld\castrender\castrender\materialcallbacks\screenshadowcallback.h
 	<irrlicht.h>
 
+1486368618 source:d:\hiburan\cornworld\castrender\cast-render\castrender\baseobject.cpp
+	"CCastRender.h"
+	"BaseObject.h"
+
+1473605657 d:\hiburan\cornworld\castrender\cast-render\castrender\ccastrender.h
+	<irrlicht.h>
+
+1473351810 d:\hiburan\cornworld\castrender\cast-render\castrender\baseobject.h
+	<irrlicht.h>
+	"objects/objectConstants.h"
+
+1481537979 d:\hiburan\cornworld\castrender\cast-render\castrender\objects\objectconstants.h
+
+1486368670 source:d:\hiburan\cornworld\castrender\cast-render\castrender\ccastrender.cpp
+	"CCastRender.h"
+	"BaseObject.h"
+	"objects/CompositObject.h"
+	"materialCallbacks/BaseDepthCB.h"
+	"materialCallbacks/DepthComposit.h"
+	"materialCallbacks/ScreenShaderCallback.h"
+	"materialCallbacks/ScreenNormalCallback.h"
+	"materialCallbacks/lightingCallBack.h"
+	"materialCallbacks/screenShadowCallback.h"
+
+1473347830 d:\hiburan\cornworld\castrender\cast-render\castrender\objects\compositobject.h
+	"../BaseObject.h"
+	"../materialCallbacks/DepthComposit.h"
+	"../../config.h"
+
+1473657999 d:\hiburan\cornworld\castrender\cast-render\castrender\materialcallbacks\depthcomposit.h
+	<irrlicht.h>
+	"../../config.h"
+
+1473605990 d:\hiburan\cornworld\castrender\cast-render\config.h
+
+1472740285 d:\hiburan\cornworld\castrender\cast-render\castrender\materialcallbacks\basedepthcb.h
+	<irrlicht.h>
+
+1473769722 d:\hiburan\cornworld\castrender\cast-render\castrender\materialcallbacks\screenshadercallback.h
+	<irrlicht.h>
+
+1481514745 d:\hiburan\cornworld\castrender\cast-render\castrender\materialcallbacks\screennormalcallback.h
+	<irrlicht.h>
+
+1478353000 d:\hiburan\cornworld\castrender\cast-render\castrender\materialcallbacks\lightingcallback.h
+	<irrlicht.h>
+
+1473591740 d:\hiburan\cornworld\castrender\cast-render\castrender\materialcallbacks\screenshadowcallback.h
+	<irrlicht.h>
+
+1472975622 source:d:\hiburan\cornworld\castrender\cast-render\castrender\objects\cilinderobject.cpp
+	"../BaseObject.h"
+	"CilinderObject.h"
+	"objectConstants.h"
+
+1472971801 d:\hiburan\cornworld\castrender\cast-render\castrender\objects\cilinderobject.h
+	"../BaseObject.h"
+
+1473608609 source:d:\hiburan\cornworld\castrender\cast-render\castrender\objects\compositobject.cpp
+	"../BaseObject.h"
+	"CompositObject.h"
+	"objectConstants.h"
+
+1472975637 source:d:\hiburan\cornworld\castrender\cast-render\castrender\objects\coneobject.cpp
+	"../BaseObject.h"
+	"ConeObject.h"
+	"objectConstants.h"
+
+1472971238 d:\hiburan\cornworld\castrender\cast-render\castrender\objects\coneobject.h
+	"../BaseObject.h"
+
+1472975654 source:d:\hiburan\cornworld\castrender\cast-render\castrender\objects\cubeobject.cpp
+	"../BaseObject.h"
+	"CubeObject.h"
+	"objectConstants.h"
+
+1472971247 d:\hiburan\cornworld\castrender\cast-render\castrender\objects\cubeobject.h
+	"../BaseObject.h"
+
+1472975666 source:d:\hiburan\cornworld\castrender\cast-render\castrender\objects\sphereobject.cpp
+	"../BaseObject.h"
+	"SphereObject.h"
+	"objectConstants.h"
+
+1472971403 d:\hiburan\cornworld\castrender\cast-render\castrender\objects\sphereobject.h
+	"../BaseObject.h"
+
+1486368983 source:d:\hiburan\cornworld\castrender\cast-render\main.cpp
+	<irrlicht.h>
+	"castRender/CCastRender.h"
+	"castRender/BaseObject.h"
+	"demos.h"
+
+1486368841 d:\hiburan\cornworld\castrender\cast-render\demos.h
+	<irrlicht.h>
+	"castRender/CCastRender.h"
+	"castRender/BaseObject.h"
+	"castRender/objects/SphereObject.h"
+	"castRender/objects/CilinderObject.h"
+	"castRender/objects/SphereObject.h"
+	"castRender/objects/CompositObject.h"
+	"config.h"
+
