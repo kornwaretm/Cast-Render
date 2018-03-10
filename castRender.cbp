@@ -33,17 +33,18 @@
 			</Target>
 		</Build>
 		<Compiler>
-			<Add option="-Wall" />
-			<Add directory="D:/hiburan/ClicksOfCourage/irrlicht/include" />
+			<Add option="-std=c++11" />
+			<Add option="-m64" />
+			<Add directory="$(#irrlicht.include)" />
 		</Compiler>
 		<Linker>
-			<Add option="-static-libgcc" />
-			<Add option="-static-libstdc++" />
+			<Add option="-m64" />
+			<Add option="-lpthread" />
 			<Add library="Irrlicht" />
 			<Add library="opengl32" />
 			<Add library="glu32" />
 			<Add library="gdi32" />
-			<Add directory="D:/hiburan/ClicksOfCourage/irrlicht/lib/Win32-gcc" />
+			<Add directory="$(#irrlicht.lib)" />
 		</Linker>
 		<Unit filename="castRender/BaseObject.cpp" />
 		<Unit filename="castRender/BaseObject.h" />

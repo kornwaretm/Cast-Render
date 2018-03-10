@@ -47,9 +47,8 @@ int main(int argc, char** argv)
     //demoCiliderObject(cast, driver);
     //demoSphereObject(cast, driver);
     //demoComposit(cast,driver); // maximum object per composite
-    demoWarrior(cast,driver);
-    //demoHelloWorld(cast,driver);
-
+    //demoWarrior(cast,driver);
+    demoHelloWorld(cast,driver);
     //demoRtsWorld(cast, driver);
 
     IGUIStaticText* fpsText = guienv->addStaticText(L"log",rect<s32>(0,0,100,30),true);
